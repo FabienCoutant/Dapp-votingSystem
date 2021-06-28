@@ -33,7 +33,7 @@ export default function Header() {
 
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
-      <Navbar.Brand style={{ paddingLeft: "48px" }}>Voting System</Navbar.Brand>
+      <Navbar.Brand style={{ paddingLeft: "48px" }}>Voting System - Only on Ropsten network</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
         <Navbar.Text>
