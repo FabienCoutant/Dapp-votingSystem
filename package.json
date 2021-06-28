@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "webpack": "4.44.2"
+  }
+}
