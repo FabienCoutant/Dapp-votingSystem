@@ -204,7 +204,7 @@ contract Voting is Ownable {
      * @dev Return the number of proposal
      * @return uint number of total proposal registered
      */
-    function getNumberOfProposals() internal returns(uint){
+    function getNumberOfProposals() private returns(uint){
         return proposalList.length;
     }
 }

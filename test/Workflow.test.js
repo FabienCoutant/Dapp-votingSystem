@@ -1,5 +1,4 @@
-const { BN } = require("@openzeppelin/test-helpers");
-const { expectRevert, expectEvent } = require("@openzeppelin/test-helpers");
+const { expectRevert, expectEvent,BN } = require("@openzeppelin/test-helpers");
 const { expect } = require("chai");
 const Voting = artifacts.require("./Voting.sol");
 
